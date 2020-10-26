@@ -119,7 +119,7 @@ education:
 
 other_activities:
   enable : true
-  title : "OTHER ACTIVITIES"
+  title : "OTRAS ACTIVIDADES"
   other_activities_list:
     # other_activities item loop
     - title: "Ada Byron, UAM"
