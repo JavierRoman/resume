@@ -1,6 +1,6 @@
 [build]
-  publish = "javierroman/public/"
-  command = "cd javierroman && hugo --gc --themesDir .."
+  publish = "javierroman/public"
+  command = "cd javierroman && hugo --gc --themesDir ../themes"
   
 [build.environment]
   HUGO_VERSION = "0.60.1"
