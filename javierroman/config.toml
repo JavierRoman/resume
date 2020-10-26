@@ -87,7 +87,7 @@ link = "https://www.linkedin.com/in/javier-rom%C3%A1n-morales-62a023185/"
 ################################### English language #####################################
 [languages]
 [languages.en]
-languageName = "En"
+languageName = "🇬🇧"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 0
@@ -133,7 +133,7 @@ weight = 6
 
 ################################### Spanish language #####################################
 [languages.es]
-languageName = "Es"
+languageName = "🇪🇸"
 languageCode = "es-es"
 contentDir = "content/spanish"
 weight = 1
