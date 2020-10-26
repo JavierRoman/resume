@@ -190,6 +190,12 @@ service:
     - name : "SQL"
       image : "images/icons/SQL.png"
 
+    - name : "Netlify"
+      image : "images/icons/netlify.png"
+
+    - name : "HUGO"
+      image : "images/icons/hugo.png"
+
     - name : "Pandas"
       image : "images/icons/pandas.png"
 
