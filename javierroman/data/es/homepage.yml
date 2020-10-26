@@ -1,0 +1,307 @@
+########################## hero area ##########################
+hero:
+  title : "Hola, soy Javier Román"
+
+  # animated text loop
+  occupations:
+    - "Computación en la nube"
+    - "Big Data"
+    - "Desarrollo de software"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-1.jpg"
+    - "images/slider/slider-2.jpg"
+    - "images/slider/slider-3.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "CONTÁCTAME"
+    link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/full-nav-bg.jpg"
+  first_name : "Javier"
+  last_name : "Román"
+  
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait.jpg"
+  title : "CONÓCEME"
+  content : "¡Hola! Me llamo Javier Román Morales y soy un Ingeniero Informático actualmente trabajando como Ingeniero de Datos en Google Cloud Platform. La programación y la tecnología son mis dos pasiones principales, me encanta construir cosas nuevas de cero e informarme sobre los últimos avances tanto científicos como técnicos. Aunque me gusta mucho trabajar en el campo de los datos también disfruto mucho con la Ingeniería de Software y nunca cierro la puerta a un rol como ese. No le tengo miedo al cambio y por eso lo veo como una oportunidad de aprender e innovar, tratando de usar por ello los últimos avances de la industria en mi trabajo. ¡Encantado de conocerte! ¡Trabajemos juntos!"
+  # button
+  button:
+    enable : true
+    label : "DESCARGA MI CV"
+    link : "#" # you can put your cv in static folder and give the path here.
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "EXPERIENCIA"
+  experience_list:
+    # experience item loop
+    - name : "Ingeniero de Datos"
+      company : "Ebury"
+      image: "images/icons/ebury.png"
+      duration : "2019-Actualidad"
+      content: "Actualmente trabajo desarrollando pipelines de datos, infraestructura y servicios dentro de Google Cloud Plataform. Tratamos de proveer a la empresa de data warehouse que sea robusto, mantenible y escalable, manejando la infraestructura, construyendo modelos dimensionales sobre los datos y desplegando diferentes servicios de utilidad para nuestros Científicos y Analístas de Datos. Para todo esto usamos herramientas como BigQuery, Composer Airflow, DBT, Cloud Run, App Engine, GKE, Google Deployment Manager, Cloud Build, Docker, Python y más."
+
+    # experience item loop
+    - name : "Ingeniero de Software (Prácticas)"
+      company : "GMV"
+      image: "images/icons/gmv.png"
+      duration : "2017-2018"
+      content : "Trabajé en el proyecto de tecnología espacial ESROCOS de la Agencia Espacial Europea (ESA) y de la Comisión Europea. Los puntos de trabajo fueron: Desarrollo de un estándard de comunicaciones usando C/C++. Desarrollo de las respuestas de los sistemas físicos a estos comandos, para esto se uso ROS, Gazebo y Taste. Desarrollo de la interfaz gráfica de manejo de las comunicaciones entre el segmento de tierra y el de espacio usando Python y Qt."
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "HABILIDADES"
+  skill_list:
+    # skill item loop
+    - name : "Desarrollo de Software"
+      parcentage : "95%"
+
+    # skill item loop
+    # - name : "Python/ Java/ JavaScript/ C/ HTML/ CSS/ Git"
+    #   parcentage : "92%"
+
+    # skill item loop
+    - name : "Pipelines de Datos"
+      parcentage : "85%"
+
+    - name : "Aplicaciones contenerizadas y CI/CD"
+      parcentage : "90%"
+
+    # skill item loop
+    - name : "Computación en la Nube"
+      parcentage : "88%"
+
+    # skill item loop
+    - name : "Aprendizaje Automático e IA"
+      parcentage : "62%"
+
+    - name : "Creatividad"
+      parcentage : "94%"
+
+    - name : "Trabajo en equipo"
+      parcentage : "92%"
+
+###########################3 Background ##############################
+background:
+  enable: true
+  title: "FONDO ACADÉMICO"
+
+education:
+  enable : true
+  title : "EDUCACIÓN"
+  education_list:
+    # education item loop
+    - name : "Máster en Inteligencia Artificial"
+      school: "Universidad Politécnica de Madrid - 8.77/10"
+      image: "images/icons/upm.png"
+      duration : "2018-2019"
+      thesis: "Reconocimiento de landmarks basado en el método de la Bolsa de Palabras Visuales para la navegación autónoma mediante Mapas Topológicos Visuales."
+
+    # education item loop
+    - name : "Grado en Ingeniería Informática"
+      school : "Universidad Autónoma de Madrid - 8.14/10"
+      image: "images/icons/uam.png"
+      duration : "2014-2018"
+      thesis: "Redes Neuronales Recurrentes para el procesamiento de series temporales."
+
+other_activities:
+  enable : true
+  title : "OTHER ACTIVITIES"
+  other_activities_list:
+    # other_activities item loop
+    - title: "Ada Byron, UAM"
+      summary: "Concurso de programación rápida a nivel regional"
+      date: "Abr. 2018"
+      content: "Posición 3º"
+
+    - title: "Ada Byron, UAM"
+      summary: "Concurso de programación rápida a nivel regional"
+      date: "Abr. 2017"
+      content: "Posición 4º"
+
+    - title: "ICPC - SWERC"
+      summary: "Concurso de programación rápida a nivel europeo"
+      date: "Nov. 2016"
+      content: "Posición 49º"
+
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "HERRAMIENTAS"
+  service_list:
+    # service item loop
+    - name : "Python"
+      image : "images/icons/python.png"
+
+    - name : "Git"
+      image : "images/icons/git.png"
+
+    - name : "Docker"
+      image : "images/icons/docker.png"
+
+    - name : "Google Cloud Plataform"
+      image : "images/icons/gcp.png"
+
+    - name : "BigQuery"
+      image : "images/icons/bigquery.png"
+
+    - name : "Apache Airflow"
+      image : "images/icons/airflow.png"
+
+    - name : "Cloud Run"
+      image : "images/icons/cloudrun.png"
+
+    - name : "Cloud Functions"
+      image : "images/icons/cloudfunction.png"
+
+    - name : "Compute Engine"
+      image : "images/icons/gce.png"
+
+    - name : "DBT"
+      image : "images/icons/dbt.png"
+
+    - name : "AppEngine"
+      image : "images/icons/appengine.png"
+
+    - name : "Google Kubernetes Engine"
+      image : "images/icons/gke.png"
+
+    - name : "Virtual Private Cloud"
+      image : "images/icons/vpc.png"
+
+    - name : "GNU/Linux"
+      image : "images/icons/bash.png"
+
+    - name : "SQL"
+      image : "images/icons/SQL.png"
+
+    - name : "Pandas"
+      image : "images/icons/pandas.png"
+
+    - name : "Numpy"
+      image : "images/icons/numpy.png"
+
+    - name : "Java"
+      image : "images/icons/java.png"
+      
+    - name : "C"
+      image : "images/icons/c.png"
+      
+    - name : "React"
+      image : "images/icons/react.png"
+
+    - name : "JavaScript"
+      image : "images/icons/javascript.png"
+
+    - name : "HTML/CSS"
+      image : "images/icons/html.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : false
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NEED A SERVICE?"
+  button:
+    enable : true
+    label : "SAY HELLO!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PORTFOLIO"
+  all_items : "Todo"
+  portfolio_list:
+    # portfolio item loop
+    - name : "Método de la Bolsa de Palabras Visuales<br/><br/>TFM"
+      image : "images/portfolio/tfm.png"
+      date : "Jul 2019"
+      category : "Tésis"
+      link: "https://drive.google.com/file/d/1f2Ep8wsNBwkO-gADQcSfYGtxxw_o_Pm3/view?usp=sharing"
+      
+    # portfolio item loop
+    - name : "RNN para el análisis de series temporales<br/><br/>TFG"
+      image : "images/portfolio/tfg.png"
+      date : "Jul 2018"
+      category : "Tésis"
+      link: "https://drive.google.com/file/d/1x-N7bGQX8TmRIb61WDsgwYqn5stgwxxI/view?usp=sharing"
+
+    - name : "Proyecto ESROCOS"
+      image : "images/portfolio/esrocos.png"
+      date : "2018"
+      category : "Desarrollo de Software"
+      link: "https://github.com/ESROCOS"
+      
+################################# Testimonial #########################33
+testimonial:
+  enable : false
+  title : "TESTIMONIALS"
+  testimonial_slider:
+    # slider item loop
+    - name : "Micheal Clark"
+      image : "images/clients/client1.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+                
+    # slider item loop
+    - name : "Peter Parker"
+      image : "images/clients/client2.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+                
+    # slider item loop
+    - name : "Jessica Jones"
+      image : "images/clients/client3.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  funfacts_list:
+    # funfacts item loop
+    - name : "COMPAÑEROS DE TRABAJO"
+      image : "images/icons/works.png"
+      count : "33"
+      
+    # funfacts item loop
+    - name : "JEFES CONTENTOS"
+      image : "images/icons/happy.png"
+      count : "2"
+      
+    # funfacts item loop
+    - name : "PROYECTOS ACABADOS"
+      image : "images/icons/project.png"
+      count : "12"
+      
+    # funfacts item loop
+    - name : "TAZAS DE CAFÉ"
+      image : "images/icons/coffee.png"
+      count : "150"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "¡DI HOLA!"

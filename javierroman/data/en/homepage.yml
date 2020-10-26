@@ -1,0 +1,307 @@
+########################## hero area ##########################
+hero:
+  title : "Hi, I'm Javier Roman"
+
+  # animated text loop
+  occupations:
+    - "Cloud Computing"
+    - "Big Data"
+    - "Software Development"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-1.jpg"
+    - "images/slider/slider-2.jpg"
+    - "images/slider/slider-3.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "CONTACT ME"
+    link : "#contact"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/full-nav-bg.jpg"
+  first_name : "Javier"
+  last_name : "Roman"
+  
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait.jpg"
+  title : "KNOW MORE <br> ABOUT ME"
+  content : "Hi! My name is Javier Roman, I'm a professional computer scientist currently working as a Data Engineer using the Google Cloud Platform. Programming and technology are my main passions, I love building new things from scratch and reading about the latest technical and scientific advances. Although I love working with data I deeply enjoy Software Engineering too and I don't close the doors to roles like that. I'm not afraid of change neither of learning and that's why I'm always willing to apply the latest things being in use in the industry at work. It's a pleasure to meet you so... Let's work together!"
+  # button
+  button:
+    enable : true
+    label : "DOWNLOAD MY CV"
+    link : "#" # you can put your cv in static folder and give the path here.
+
+###########################3 Experience ##############################
+experience:
+  enable : true
+  title : "EXPERIENCE"
+  experience_list:
+    # experience item loop
+    - name : "Data Engineer"
+      company : "Ebury"
+      image: "images/icons/ebury.png"
+      duration : "2019-Now"
+      content : "I'm working developing data pipelines and infrastructure using Google Cloud Plataform. We aim to provide a robust, scalable and mantainable data warehouse, building dimensional models and deploying services for our Data Scientists and Analysts. This is done with tools such as BigQuery, Composer Airflow, DBT, Cloud Run, App Engine, GKE, Google Deployment Manager, Cloud Build, Docker, Python and so on."
+
+    # experience item loop
+    - name : "Software Engineer Intern"
+      company : "GMV"
+      image: "images/icons/gmv.png"
+      duration : "2017-2018"
+      content : "I worked within the ESROCOS space technology project of the European Space Agency (ESA) and the European Comission. Development of a communication standard using C/C++. Develompent of the response of the physical systems to those comands using Gazebo, ROS and Taste. UI development using Python and Qt to manage the comunications between the ground and space segments."
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "SKILLS"
+  skill_list:
+    # skill item loop
+    - name : "Software Development"
+      parcentage : "95%"
+
+    # skill item loop
+    # - name : "Python/ Java/ JavaScript/ C/ HTML/ CSS/ Git"
+    #   parcentage : "92%"
+
+    # skill item loop
+    - name : "Data Pipelines"
+      parcentage : "85%"
+
+    - name : "Containerized Applications & CI/CD"
+      parcentage : "90%"
+
+    # skill item loop
+    - name : "Cloud Computing"
+      parcentage : "88%"
+
+    # skill item loop
+    - name : "Machine Learning & AI"
+      parcentage : "62%"
+
+    - name : "Creativity"
+      parcentage : "94%"
+
+    - name : "Team Work"
+      parcentage : "92%"
+
+###########################3 Background ##############################
+background:
+  enable: true
+  title: "BACKGROUND"
+
+education:
+  enable : true
+  title : "EDUCATION"
+  education_list:
+    # education item loop
+    - name : "Master of Science, MSc, Artificial Intelligence"
+      school: "Universidad Politécnica de Madrid - 8.77/10"
+      image: "images/icons/upm.png"
+      duration : "2018-2019"
+      thesis: "Landmark recognition based on the Bag of Visual Words method for autonomous navigation using Visual Topological Maps."
+
+    # education item loop
+    - name : "Bachelor of Science, BSc, Computer Science"
+      school : "Universidad Autónoma de Madrid - 8.14/10"
+      image: "images/icons/uam.png"
+      duration : "2014-2018"
+      thesis: "Recurrent Neural Networks for time series processing."
+
+other_activities:
+  enable : true
+  title : "OTHER ACTIVITIES"
+  other_activities_list:
+    # other_activities item loop
+    - title: "Ada Byron, UAM"
+      summary: "Spanish Regional Quick Programming Contest"
+      date: "Apr. 2018"
+      content: "Position #3"
+
+    - title: "Ada Byron, UAM"
+      summary: "Spanish Regional Quick Programming Contest"
+      date: "Apr. 2017"
+      content: "Position #4"
+
+    - title: "ICPC - SWERC"
+      summary: "Southwestern European Regional Quick Programming Contest"
+      date: "Nov. 2016"
+      content: "Position #49"
+
+
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "TOOLS"
+  service_list:
+    # service item loop
+    - name : "Python"
+      image : "images/icons/python.png"
+
+    - name : "Git"
+      image : "images/icons/git.png"
+
+    - name : "Docker"
+      image : "images/icons/docker.png"
+
+    - name : "Google Cloud Plataform"
+      image : "images/icons/gcp.png"
+
+    - name : "BigQuery"
+      image : "images/icons/bigquery.png"
+
+    - name : "Apache Airflow"
+      image : "images/icons/airflow.png"
+
+    - name : "Cloud Run"
+      image : "images/icons/cloudrun.png"
+
+    - name : "Cloud Functions"
+      image : "images/icons/cloudfunction.png"
+
+    - name : "Compute Engine"
+      image : "images/icons/gce.png"
+
+    - name : "DBT"
+      image : "images/icons/dbt.png"
+
+    - name : "AppEngine"
+      image : "images/icons/appengine.png"
+
+    - name : "Google Kubernetes Engine"
+      image : "images/icons/gke.png"
+
+    - name : "Virtual Private Cloud"
+      image : "images/icons/vpc.png"
+
+    - name : "GNU/Linux"
+      image : "images/icons/bash.png"
+
+    - name : "SQL"
+      image : "images/icons/SQL.png"
+
+    - name : "Pandas"
+      image : "images/icons/pandas.png"
+
+    - name : "Numpy"
+      image : "images/icons/numpy.png"
+
+    - name : "Java"
+      image : "images/icons/java.png"
+      
+    - name : "C"
+      image : "images/icons/c.png"
+      
+    - name : "React"
+      image : "images/icons/react.png"
+
+    - name : "JavaScript"
+      image : "images/icons/javascript.png"
+
+    - name : "HTML/CSS"
+      image : "images/icons/html.png"
+
+
+############################## call to action #########################
+call_to_action:
+  enable : false
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NEED A SERVICE?"
+  button:
+    enable : true
+    label : "SAY HELLO!"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PORTFOLIO"
+  all_items : "All Items"
+  portfolio_list:
+    # portfolio item loop
+    - name : "Bag Of Visual Words Method <br/><br/> MSc Thesis"
+      image : "images/portfolio/tfm.png"
+      date : "Jul 2019"
+      category : "Thesis"
+      link: "https://drive.google.com/file/d/1f2Ep8wsNBwkO-gADQcSfYGtxxw_o_Pm3/view?usp=sharing"
+      
+    # portfolio item loop
+    - name : "RNN for time series analysis <br/><br/> BSc Thesis"
+      image : "images/portfolio/tfg.png"
+      date : "Jul 2018"
+      category : "Thesis"
+      link: "https://drive.google.com/file/d/1x-N7bGQX8TmRIb61WDsgwYqn5stgwxxI/view?usp=sharing"
+
+    - name : "Project ESROCOS"
+      image : "images/portfolio/esrocos.png"
+      date : "2018"
+      category : "Software Development"
+      link: "https://github.com/ESROCOS"
+      
+################################# Testimonial #########################33
+testimonial:
+  enable : false
+  title : "TESTIMONIALS"
+  testimonial_slider:
+    # slider item loop
+    - name : "Micheal Clark"
+      image : "images/clients/client1.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+                
+    # slider item loop
+    - name : "Peter Parker"
+      image : "images/clients/client2.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+                
+    # slider item loop
+    - name : "Jessica Jones"
+      image : "images/clients/client3.jpg"
+      designation : "CEO, RANDOM COMPANY"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ad,
+                omnis totam iusto quia? Excepturi itaque quaerat, quia unde delectus rem error dignissimos in iusto."
+
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  funfacts_list:
+    # funfacts item loop
+    - name : "HANDS TO WORK"
+      image : "images/icons/works.png"
+      count : "33"
+      
+    # funfacts item loop
+    - name : "HAPPY BOSSES"
+      image : "images/icons/happy.png"
+      count : "2"
+      
+    # funfacts item loop
+    - name : "FINISHED PROJECT"
+      image : "images/icons/project.png"
+      count : "12"
+      
+    # funfacts item loop
+    - name : "CUPS OF COFFEE"
+      image : "images/icons/coffee.png"
+      count : "150"
+
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "SAY HELLO!"
