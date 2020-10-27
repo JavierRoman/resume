@@ -925,6 +925,19 @@ input:checked + label span:last-child {
   font-size: 16px;
 }
 
+.institution-icon {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.institution-icon:hover {
+  -webkit-transform: scale(1.2) rotate(-360deg);
+  transform: scale(1.2) rotate(-360deg);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
 /* ========= Start Experience ======= */
 
 .experience-skill {
@@ -1111,6 +1124,8 @@ ul.experience-chart h4 {
   align-items: center;
   margin-bottom: 30px;
   padding-bottom: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .service-img {
@@ -1120,6 +1135,16 @@ ul.experience-chart h4 {
 
 .services-icon img {
   width: 100%;
+}
+
+.services-icon:hover {
+  width: 100%;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .service-label {
@@ -1642,7 +1667,7 @@ textarea.form-control::-webkit-input-placeholder,
   width: 210px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;

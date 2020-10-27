@@ -34,7 +34,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "Hi! My name is Javier Roman, I'm a professional computer scientist currently working as a Data Engineer using the Google Cloud Platform. Programming and technology are my main passions, I love building new things from scratch and reading about the latest technical and scientific advances. Although I love working with data I deeply enjoy Software Engineering too and I don't close the doors to roles like that. I'm not afraid of change neither of learning and that's why I'm always willing to apply the latest things being in use in the industry at work. It's a pleasure to meet you so... Let's work together!"
+  content : "Hi! My name is Javier Roman, I'm a professional computer scientist currently working as a Data Engineer using the Google Cloud Platform. Programming and technology are my main passions, I love building new things from scratch and reading about the latest technical and scientific advances. Although I love working with data I deeply enjoy Software Engineering too and I don't close the doors to roles like that. I'm not afraid of change as I see it as an opportunity to learn and innovate. Thus, I'm always willing to apply the latest things being in use in the industry at work. It's a pleasure to meet you so... Let's work together!"
   # button
   button:
     enable : true
@@ -52,6 +52,7 @@ experience:
       image: "images/icons/ebury.png"
       duration : "2019-Now"
       content : "I'm working developing data pipelines and infrastructure using Google Cloud Plataform. We aim to provide a robust, scalable and mantainable data warehouse, building dimensional models and deploying services for our Data Scientists and Analysts. This is done with tools such as BigQuery, Composer Airflow, DBT, Cloud Run, App Engine, GKE, Google Deployment Manager, Cloud Build, Docker, Python and so on."
+      link: "https://www.ebury.com"
 
     # experience item loop
     - name : "Software Engineer Intern"
@@ -59,6 +60,8 @@ experience:
       image: "images/icons/gmv.png"
       duration : "2017-2018"
       content : "I worked within the ESROCOS space technology project of the European Space Agency (ESA) and the European Comission. Development of a communication standard using C/C++. Develompent of the response of the physical systems to those comands using Gazebo, ROS and Taste. UI development using Python and Qt to manage the comunications between the ground and space segments."
+      link: "https://www.gmv.com/en/"
+
 
 ############################### Skill #################################
 skill:
@@ -109,6 +112,7 @@ education:
       image: "images/icons/upm.png"
       duration : "2018-2019"
       thesis: "Landmark recognition based on the Bag of Visual Words method for autonomous navigation using Visual Topological Maps."
+      link: "https://www.upm.es/internacional"
 
     # education item loop
     - name : "Bachelor of Science, BSc, Computer Science"
@@ -116,6 +120,7 @@ education:
       image: "images/icons/uam.png"
       duration : "2014-2018"
       thesis: "Recurrent Neural Networks for time series processing."
+      link: "http://www.uam.es/UAM/Home.htm?language=es"
 
 other_activities:
   enable : true
@@ -154,7 +159,7 @@ service:
     - name : "Docker"
       image : "images/icons/docker.png"
 
-    - name : "Google Cloud Plataform"
+    - name : "Google Cloud"
       image : "images/icons/gcp.png"
 
     - name : "BigQuery"
