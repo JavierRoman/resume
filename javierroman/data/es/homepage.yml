@@ -311,3 +311,7 @@ funfacts:
 contact:
   enable : true
   title : "¡DI HOLA!"
+  submit: "Enviar"
+  name: "Nombre"
+  email: "Correo"
+  message: "Mensaje"

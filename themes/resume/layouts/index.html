@@ -508,19 +508,19 @@
         <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
             <div class="form-group col-lg-6">
-              <input class="form-control" type="text" name="username" id="username" placeholder="Name" required>
+              <input class="form-control" type="text" name="username" id="username" placeholder="{{ $data.homepage.contact.name }}" required>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-6">
-              <input class="form-control" type="email" id="email" name="email" placeholder="Email" required>
+              <input class="form-control" type="email" id="email" name="email" placeholder="{{ $data.homepage.contact.email }}" required>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12">
-              <textarea class="form-control" name="message" id="message" rows="12" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" id="message" rows="12" placeholder="{{ $data.homepage.contact.message }}"></textarea>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group col-lg-12 sub-button">
-              <button class="submit form-control hvr-icon-push" type="submit" value="send"> Submit </button>
+              <button class="submit form-control hvr-icon-push" type="submit" value="send"> {{ $data.homepage.contact.submit }} </button>
             </div>
           </div>
         </form>

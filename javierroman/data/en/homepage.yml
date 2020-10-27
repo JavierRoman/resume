@@ -287,7 +287,7 @@ funfacts:
   enable : true
   funfacts_list:
     # funfacts item loop
-    - name : "HANDS TO WORK"
+    - name : "COWORKERS"
       image : "images/icons/works.png"
       count : "33"
       
@@ -311,3 +311,7 @@ funfacts:
 contact:
   enable : true
   title : "SAY HELLO!"
+  submit: "Submit"
+  name: "Name"
+  email: "Email"
+  message: "Message"
