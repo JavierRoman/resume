@@ -89,7 +89,7 @@ skill:
 
     # skill item loop
     - name : "Machine Learning & AI"
-      parcentage : "62%"
+      parcentage : "67%"
 
     - name : "Creativity"
       parcentage : "94%"

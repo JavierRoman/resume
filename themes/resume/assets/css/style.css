@@ -926,17 +926,17 @@ input:checked + label span:last-child {
 }
 
 .institution-icon {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 .institution-icon:hover {
   -webkit-transform: scale(1.2) rotate(-360deg);
   transform: scale(1.2) rotate(-360deg);
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transition: -webkit-transform 0.7s;
+  transition: -webkit-transform 0.7s;
+  transition: transform 0.7s;
+  transition: transform 0.7s, -webkit-transform 0.7s;
 }
 /* ========= Start Experience ======= */
 
