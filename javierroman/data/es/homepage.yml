@@ -231,7 +231,7 @@ call_to_action:
 
 ############################# portfolio ################################
 portfolio:
-  enable : true
+  enable : false
   title : "PORTFOLIO"
   all_items : "Todo"
   portfolio_list:

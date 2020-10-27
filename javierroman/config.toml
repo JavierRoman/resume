@@ -116,10 +116,10 @@ name = "Background"
 URL = "#background"
 weight = 4
 
-[[languages.en.menu.main]]
-name = "Portfolio"
-URL = "#portfolio"
-weight = 5
+# [[languages.en.menu.main]]
+# name = "Portfolio"
+# URL = "#portfolio"
+# weight = 5
 
 # [[languages.en.menu.main]]
 # name = "Testimonial"
@@ -161,10 +161,10 @@ name = "Fondo académico"
 URL = "#background"
 weight = 4
 
-[[languages.es.menu.main]]
-name = "Portfolio"
-URL = "#portfolio"
-weight = 5
+# [[languages.es.menu.main]]
+# name = "Portfolio"
+# URL = "#portfolio"
+# weight = 5
 
 # [[languages.es.menu.main]]
 # name = "Testimonial"
