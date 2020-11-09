@@ -39,7 +39,7 @@ about:
   button:
     enable : true
     label : "DESCARGA MI CV"
-    link : "#" # you can put your cv in static folder and give the path here.
+    link : "https://drive.google.com/uc?id=1rFGNqRQ-1w6FbhNn9vCkfmIbLvHkvobN&export=download" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:
@@ -51,7 +51,7 @@ experience:
       company : "Ebury"
       image: "images/icons/ebury.png"
       duration : "2019-Actualidad"
-      content: "Actualmente trabajo desarrollando pipelines de datos, infraestructura y servicios dentro de Google Cloud Plataform. Tratamos de proveer a la empresa de data warehouse que sea robusto, mantenible y escalable, manejando la infraestructura, construyendo modelos dimensionales sobre los datos y desplegando diferentes servicios de utilidad para nuestros Científicos y Analístas de Datos. Para todo esto usamos herramientas como BigQuery, Composer Airflow, DBT, Cloud Run, App Engine, GKE, Google Deployment Manager, Cloud Build, Docker, Python y más."
+      content: "Actualmente trabajo desarrollando pipelines de datos, infraestructura y servicios dentro de Google Cloud Plataform. Tratamos de proveer a la empresa de un data warehouse que sea robusto, mantenible y escalable, manejando la infraestructura, construyendo modelos dimensionales sobre los datos y desplegando diferentes servicios de utilidad para nuestros Científicos y Analístas de Datos. Para todo esto usamos herramientas como BigQuery, Composer Airflow, DBT, Cloud Run, App Engine, GKE, Google Deployment Manager, Cloud Build, Docker, Python y más."
       link: "https://www.ebury.es"
 
     # experience item loop
