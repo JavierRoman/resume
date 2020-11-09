@@ -83,43 +83,44 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 0
 home = "Home"
+url = "/"
 # copyright
 # copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 # main menu
 
 [[languages.en.menu.main]]
 name = "Home"
-URL = "#home"
+url = "#home"
 weight = 1
 
 [[languages.en.menu.main]]
 name = "About me"
-URL = "#about"
+url = "#about"
 weight = 2
 
 [[languages.en.menu.main]]
 name = "Tools"
-URL = "#service"
+url = "#service"
 weight = 3
 
 [[languages.en.menu.main]]
 name = "Background"
-URL = "#background"
+url = "#background"
 weight = 4
 
 # [[languages.en.menu.main]]
 # name = "Portfolio"
-# URL = "#portfolio"
+# url = "#portfolio"
 # weight = 5
 
 # [[languages.en.menu.main]]
 # name = "Testimonial"
-# URL = "#testimonial"
+# url = "#testimonial"
 # weight = 6
 
 [[languages.en.menu.main]]
 name = "Contact"
-URL = "#contact"
+url = "#contact"
 weight = 6
 
 ################################### Spanish language #####################################
@@ -129,40 +130,41 @@ languageCode = "es-es"
 contentDir = "content/spanish"
 weight = 1
 home = "Inicio"
+url = "/"
 # copyright
 # copyright = "Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)"
 # main menu
 [[languages.es.menu.main]]
 name = "Inicio"
-URL = "#home"
+url = "#home"
 weight = 1
 
 [[languages.es.menu.main]]
 name = "Sobre mí"
-URL = "#about"
+url = "#about"
 weight = 2
 
 [[languages.es.menu.main]]
 name = "Herramientas"
-URL = "#service"
+url = "#service"
 weight = 3
 
 [[languages.es.menu.main]]
 name = "Fondo académico"
-URL = "#background"
+url = "#background"
 weight = 4
 
 # [[languages.es.menu.main]]
 # name = "Portfolio"
-# URL = "#portfolio"
+# url = "#portfolio"
 # weight = 5
 
 # [[languages.es.menu.main]]
 # name = "Testimonial"
-# URL = "#testimonial"
+# url = "#testimonial"
 # weight = 6
 
 [[languages.es.menu.main]]
 name = "Contacto"
-URL = "#contact"
+url = "#contact"
 weight = 6
