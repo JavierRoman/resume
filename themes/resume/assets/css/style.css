@@ -699,6 +699,13 @@ input:checked + label span:last-child {
   color: #6f6f6f;
 }
 
+.menu-item-transparent.menu-item select {
+  color: #6f6f6f;
+  background-color: transparent;
+  border: 0px solid #fff;
+  font-size: 2em;
+}
+
 /* ========= Mobile Menu ======= */
 
 .mobile-menu {
@@ -1994,6 +2001,13 @@ textarea.form-control::-webkit-input-placeholder,
   }
 }
 
+
+.menu-item select {
+  color: #fff;
+  background-color: transparent;
+  border: 0px solid #fff;
+  font-size: 2em;
+}
 /*--------------------------------
  End Menu
 ----------------------------------*/

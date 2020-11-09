@@ -9,6 +9,9 @@
   {{ hugo.Generator }}
 
   {{ "<!-- plugins -->" | safeHTML }}
+  {{ range .Site.Params.plugins.js }}
+  <script src="{{ .link | absURL }}"></script>
+  {{ end }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .link | absURL }}">
   {{ end }}
