@@ -74,6 +74,10 @@ link = "https://github.com/javierroman"
 icon = "fa-linkedin" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
 link = "https://www.linkedin.com/in/javier-rom%C3%A1n-morales-62a023185/"
 
+[[params.social]]
+icon = "fa-envelope"
+link = "mailto:jromanmorale96@gmail.com"
+
 ############################## navigation ###############################
 ################################### English language #####################################
 [languages]

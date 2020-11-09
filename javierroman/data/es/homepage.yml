@@ -35,6 +35,8 @@ about:
   image : "images/backgrounds/portrait.jpg"
   title : "CONÓCEME"
   content : "¡Hola! Me llamo Javier Román Morales y soy un Ingeniero Informático actualmente trabajando como Ingeniero de Datos en Google Cloud Platform. La programación y la tecnología son mis dos pasiones principales, me encanta construir cosas nuevas de cero e informarme sobre los últimos avances tanto científicos como técnicos. Aunque me gusta mucho trabajar en el campo de los datos también disfruto mucho con la Ingeniería de Software y nunca cierro la puerta a un rol como ese. No le tengo miedo al cambio y por eso lo veo como una oportunidad de aprender e innovar, tratando de usar por ello los últimos avances de la industria en mi trabajo. ¡Encantado de conocerte! ¡Trabajemos juntos!"
+  phone: +34660996443
+  email: jromanmorales96@gmail.com
   # button
   button:
     enable : true
