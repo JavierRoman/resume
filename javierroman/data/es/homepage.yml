@@ -79,18 +79,18 @@ skill:
 
     # skill item loop
     - name : "Pipelines de Datos"
-      parcentage : "85%"
+      parcentage : "95%"
 
     - name : "Aplicaciones contenerizadas y CI/CD"
-      parcentage : "90%"
+      parcentage : "92%"
 
     # skill item loop
     - name : "Computación en la Nube"
-      parcentage : "88%"
+      parcentage : "90%"
 
     # skill item loop
     - name : "Aprendizaje Automático e IA"
-      parcentage : "67%"
+      parcentage : "70%"
 
     - name : "Creatividad"
       parcentage : "94%"
