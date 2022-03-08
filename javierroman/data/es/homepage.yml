@@ -41,7 +41,7 @@ about:
   button:
     enable : true
     label : "DESCARGA MI CV"
-    link : "https://drive.google.com/uc?id=1rFGNqRQ-1w6FbhNn9vCkfmIbLvHkvobN&export=download" # you can put your cv in static folder and give the path here.
+    link : "https://docs.google.com/presentation/d/1PF7uSkgvEPzvdzDxpzvsj41X0KrFsoQVqvv5xDUfyns/export?format=pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:
