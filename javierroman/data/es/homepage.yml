@@ -5,7 +5,7 @@ hero:
   # animated text loop
   occupations:
     - "Computación en la nube"
-    - "Big Data"
+    - "Ingeniería de datos"
     - "Desarrollo de software"
 
   # slider background image loop
