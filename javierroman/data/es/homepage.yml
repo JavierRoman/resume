@@ -51,7 +51,7 @@ experience:
     # experience item loop
     - name : "Senior Specialist Data Engineer"
       company : "StubHub International"
-      image: "images/icons/stubhub.png"
+      image: "images/icons/stubhub.jpeg"
       duration : "2022 - Actualidad"
       content : > 
         • Lideré iniciativas de ingeniería de datos para la optimización de costes e infraestructura.
