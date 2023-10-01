@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif important!;
   height: 100%;
 }
 
@@ -1009,6 +1009,16 @@ ul.experience-chart h4 {
 
 .experience-chart li p {
   color: #6f6f6f;
+}
+
+.experience-chart li pre {
+  font-family: rubik !important;
+  font-size: 16px;
+  text-align: justify;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  color: #6f6f6f;
+  padding-right: 6px;
 }
 
 .single-experience {

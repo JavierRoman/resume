@@ -5,7 +5,7 @@ hero:
   # animated text loop
   occupations:
     - "Cloud Computing"
-    - "Big Data"
+    - "Data Engineering"
     - "Software Development"
 
   # slider background image loop
@@ -34,7 +34,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "Hi! My name is Javier Roman, I'm a professional computer scientist currently working as a Data Engineer using the Google Cloud Platform. Programming and technology are my main passions, I love building new things from scratch and reading about the latest technical and scientific advances. Although I love working with data I deeply enjoy Software Engineering too and I don't close the doors to roles like that. I'm not afraid of change as I see it as an opportunity to learn and innovate. Thus, I'm always willing to apply the latest things being in use in the industry at work. It's a pleasure to meet you so... Let's work together!"
+  content : "I am Senior Data Engineer with 4+ years of experience in GCP. I have worked at Ebury and StubHub International, primarily developing data pipelines and API integrations within GCP, among other tasks. Specifically, at StubHub International, I primarily led the Data Engineering team and both led and participated in platform optimization initiatives, achieving an 80% cost reduction. Additionally, I designed a CI/CD pipeline and GCP infrastructure for dbt model deployment. During my tenure at Ebury, I was recognized for developing data pipelines, creating Python libraries to interface with GCP and AWS, and modeling in dbt. I am proficient in Docker, Airflow, Python, BigQuery, the GCP ecosystem, and DBT. I hold a BSc in Computer Science and an MSc in Artificial Intelligence. I am deeply passionate about data engineering, consistently at the forefront of cloud innovations, and am open to exploring a cloud architect role in the future."
   phone: "+34 660996443"
   email: jromanmorales96@gmail.com
   # button
@@ -49,19 +49,47 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
+    - name : "Senior Specialist Data Engineer"
+      company : "StubHub International"
+      image: "images/icons/stubhub.png"
+      duration : "2022 - Now"
+      content : > 
+        • Led data engineering initiatives for cost and infrastructure optimization.
+
+        • Designed and built CI/CD pipelines on Google Cloud Platform (GCP). Additionally, set up infrastructure on GCP for the analytics team to develop, test, and deploy their DBT code automatically, as well as to host the DBT transformations. This approach allowed us to save money by eliminating the need for the DBT Cloud tool.
+
+        • Implemented the open-source platform, Airbyte, as part of our SaaS solutions for data integration.
+
+        • Managed the normalization and ingest of very unestructure log data for pricing initiatives.
+
+        • Developed data pipelines and integrated third-party data using Composer Airflow and Python.
+      link: "https://www.stubhub.co.uk"
+
+    # experience item loop
     - name : "Data Engineer"
       company : "Ebury"
       image: "images/icons/ebury.png"
-      duration : "2019-Now"
-      content : "I'm working developing data pipelines and infrastructure using Google Cloud Plataform. We aim to provide a robust, scalable and mantainable data warehouse, building dimensional models and deploying services for our Data Scientists and Analysts. This is done with tools such as BigQuery, Composer Airflow, DBT, Cloud Run, App Engine, GKE, Google Deployment Manager, Cloud Build, Docker, Python and so on."
+      duration : "2019 - 2022"
+      content : >
+        • Led the development of reliable data pipelines and infrastructure leveraging Python and Composer Airflow.
+
+        • Crafted dimensional models to streamline data accessibility using Bigquery and DBT.
+
+        • Deployed services to empower Data Scientists and Analysts, enhancing data-driven decision-making using Cloud Run, App Engine, Cloud Build, Docker, Python.
+
       link: "https://www.ebury.com"
 
     # experience item loop
     - name : "Software Engineer Intern"
       company : "GMV"
       image: "images/icons/gmv.png"
-      duration : "2017-2018"
-      content : "I worked within the ESROCOS space technology project of the European Space Agency (ESA) and the European Comission. Development of a communication standard using C/C++. Develompent of the response of the physical systems to those comands using Gazebo, ROS and Taste. UI development using Python and Qt to manage the comunications between the ground and space segments."
+      duration : "2017 - 2018"
+      content : >
+        • Developed a robust communication standard utilizing C/C++, ensuring seamless integration within the European Space Agency ESROCOS project requirements.
+
+        • Engineered physical system responses to commands using advanced tools such as Gazebo, ROS, and Tastee.
+        
+        • Designed and built a user-friendly interface with Python and Qt, streamlining communications between terrestrial and space segments and optimizing mission control operations.
       link: "https://www.gmv.com/en/"
 
 
@@ -71,7 +99,7 @@ skill:
   title : "SKILLS"
   skill_list:
     # skill item loop
-    - name : "Software Development"
+    - name : "Python Development"
       parcentage : "95%"
 
     # skill item loop
@@ -197,12 +225,6 @@ service:
     - name : "SQL"
       image : "images/icons/SQL.png"
 
-    - name : "Netlify"
-      image : "images/icons/netlify.png"
-
-    - name : "HUGO"
-      image : "images/icons/hugo.png"
-
     - name : "Pandas"
       image : "images/icons/pandas.png"
 
@@ -214,15 +236,6 @@ service:
       
     - name : "C"
       image : "images/icons/c.png"
-      
-    - name : "React"
-      image : "images/icons/react.png"
-
-    - name : "JavaScript"
-      image : "images/icons/javascript.png"
-
-    - name : "HTML/CSS"
-      image : "images/icons/html.png"
 
 
 ############################## call to action #########################
@@ -232,7 +245,7 @@ call_to_action:
   title : "NEED A SERVICE?"
   button:
     enable : true
-    label : "SAY HELLO!"
+    label : "SAY HI!"
     link : "#contact"
 
 
@@ -301,23 +314,23 @@ funfacts:
     # funfacts item loop
     - name : "HAPPY BOSSES"
       image : "images/icons/happy.png"
-      count : "2"
+      count : "3"
       
     # funfacts item loop
     - name : "FINISHED PROJECT"
       image : "images/icons/project.png"
-      count : "12"
+      count : "54"
       
     # funfacts item loop
     - name : "CUPS OF COFFEE"
       image : "images/icons/coffee.png"
-      count : "150"
+      count : "358"
 
 
 ############################## contact ###########################
 contact:
   enable : true
-  title : "SAY HELLO!"
+  title : "SAY HI!"
   submit: "Submit"
   name: "Name"
   email: "Email"

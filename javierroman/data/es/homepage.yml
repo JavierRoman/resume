@@ -34,7 +34,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "CONÓCEME"
-  content : "¡Hola! Me llamo Javier Román Morales y soy un Ingeniero Informático actualmente trabajando como Ingeniero de Datos en Google Cloud Platform. La programación y la tecnología son mis dos pasiones principales, me encanta construir cosas nuevas de cero e informarme sobre los últimos avances tanto científicos como técnicos. Aunque me gusta mucho trabajar en el campo de los datos también disfruto mucho con la Ingeniería de Software y nunca cierro la puerta a un rol como ese. No le tengo miedo al cambio y por eso lo veo como una oportunidad de aprender e innovar, tratando de usar por ello los últimos avances de la industria en mi trabajo. ¡Encantado de conocerte! ¡Trabajemos juntos!"
+  content : "Soy un Senior Data Engineer con más de 4 años de experiencia en GCP. He trabajado en Ebury y StubHub International, desarrollando principalmente pipelines de datos e integraciones de API dentro de GCP, entre otras tareas. Específicamente, en StubHub International, lideré el equipo de Ingeniería de Datos y participé en iniciativas de optimización de la plataforma, logrando una reducción de costes del 80%. Además, diseñé un pipeline de CI/CD e infraestructura GCP para el despliegue de modelos dbt. Durante mi tiempo en Ebury, fui reconocido por desarrollar pipelines de datos, crear bibliotecas en Python para interactuar con GCP y AWS, y modelar en DBT. Tengo habilidades avanzadas en Docker, Airflow, Python, BigQuery, el ecosistema GCP y DBT. Poseo un grado en Ingeniería Informática y un máster en Inteligencia Artificial. Me apasiona profundamente la ingeniería de datos, siempre a la vanguardia de las innovaciones en la nube, y estoy abierto a explorar un puesto de Cloud Architect en el futuro."
   phone: "+34 660996443"
   email: jromanmorales96@gmail.com
   # button
@@ -49,19 +49,45 @@ experience:
   title : "EXPERIENCIA"
   experience_list:
     # experience item loop
-    - name : "Ingeniero de Datos"
+    - name : "Senior Specialist Data Engineer"
+      company : "StubHub International"
+      image: "images/icons/stubhub.png"
+      duration : "2022 - Actualidad"
+      content : > 
+        • Lideré iniciativas de ingeniería de datos para la optimización de costes e infraestructura.
+
+        • Diseñé y construí flujos de CI/CD y configuré la infraestructura en GCP para que el equipo de análisis pudiera desarrollar, probar y desplegar su código DBT automáticamente, así como alojar las transformaciones del mismo. Este enfoque nos permitió ahorrar dinero al eliminar la necesidad de la herramienta DBT Cloud.
+
+        • Implementé la plataforma de código abierto, Airbyte, como parte de nuestras soluciones SaaS para la integración de datos.
+
+        • Gestioné la normalización e ingesta de datos de logs muy desestructurados para iniciativas de fijación de precios.
+
+        • Desarrollé flujos de datos e integré datos de terceros utilizando Composer Airflow y Python.
+      link: "https://www.stubhub.es"
+    # experience item loop
+    - name : "Data Engineer"
       company : "Ebury"
       image: "images/icons/ebury.png"
-      duration : "2019-Actualidad"
-      content: "Actualmente trabajo desarrollando pipelines de datos, infraestructura y servicios dentro de Google Cloud Plataform. Tratamos de proveer a la empresa de un data warehouse que sea robusto, mantenible y escalable, manejando la infraestructura, construyendo modelos dimensionales sobre los datos y desplegando diferentes servicios de utilidad para nuestros Científicos y Analístas de Datos. Para todo esto usamos herramientas como BigQuery, Composer Airflow, DBT, Cloud Run, App Engine, GKE, Google Deployment Manager, Cloud Build, Docker, Python y más."
+      duration : "2019 - 2022"
+      content: >
+        • Lideré el desarrollo de infrastructura y flujos de datos fiables usando Python y Composer Airflow.
+
+        • Elaboré modelos dimensionales para agilizar el acceso a los datos utilizando Bigquery y DBT.
+
+        • Desplegué servicios para los Científicos de Datos y Analistas, mejorando la toma de decisiones basada en datos usando Cloud Run, App Engine, Cloud Build, Docker y Python.
       link: "https://www.ebury.es"
 
     # experience item loop
-    - name : "Ingeniero de Software (Prácticas)"
+    - name : "Software Engineer Intern"
       company : "GMV"
       image: "images/icons/gmv.png"
-      duration : "2017-2018"
-      content : "Trabajé en el proyecto de tecnología espacial ESROCOS de la Agencia Espacial Europea (ESA) y de la Comisión Europea. Los puntos de trabajo fueron: Desarrollo de un estándard de comunicaciones usando C/C++. Desarrollo de las respuestas de los sistemas físicos a estos comandos, para esto se uso ROS, Gazebo y Taste. Desarrollo de la interfaz gráfica de manejo de las comunicaciones entre el segmento de tierra y el de espacio usando Python y Qt."
+      duration : "2017 - 2018"
+      content : >
+        • Desarrollé un estándar de comunicación utilizando C/C++, garantizando una integración sin problemas dentro de los requisitos del proyecto ESROCOS de la Agencia Espacial Europea.
+
+        • Diseñé respuestas de sistemas mecanicos a comandos utilizando herramientas como Gazebo, ROS y Tastee.
+
+        • Diseñé y construí una interfaz de usuario con Python y Qt, simplificando las comunicaciones entre segmentos terrestres y espaciales y optimizando las operaciones de control de misión.
       link: "https://www.gmv.com/es/"
 
 ############################### Skill #################################
@@ -196,12 +222,6 @@ service:
     - name : "SQL"
       image : "images/icons/SQL.png"
 
-    - name : "Netlify"
-      image : "images/icons/netlify.png"
-
-    - name : "HUGO"
-      image : "images/icons/hugo.png"
-
     - name : "Pandas"
       image : "images/icons/pandas.png"
 
@@ -213,16 +233,6 @@ service:
       
     - name : "C"
       image : "images/icons/c.png"
-      
-    - name : "React"
-      image : "images/icons/react.png"
-
-    - name : "JavaScript"
-      image : "images/icons/javascript.png"
-
-    - name : "HTML/CSS"
-      image : "images/icons/html.png"
-
 
 ############################## call to action #########################
 call_to_action:
