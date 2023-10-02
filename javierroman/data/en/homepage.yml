@@ -213,7 +213,7 @@ service:
     - name : "AppEngine"
       image : "images/icons/appengine.png"
 
-    - name : "Google Kubernetes Engine"
+    - name : "GKE"
       image : "images/icons/gke.png"
 
     - name : "Virtual Private Cloud"
