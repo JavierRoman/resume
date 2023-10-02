@@ -219,6 +219,9 @@ service:
     - name : "Git"
       image : "images/icons/git.png"
 
+    - name : "Github Actions"
+      image : "images/icons/github-actions.png"
+
     - name : "Docker"
       image : "images/icons/docker.png"
 
