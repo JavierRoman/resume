@@ -201,6 +201,9 @@ service:
     - name : "GKE"
       image : "images/icons/gke.png"
 
+    - name : "Cloud Build"
+      image : "images/icons/cloud-build.png"
+
     - name : "Pub/Sub"
       image : "images/icons/pubsub.png"
 
