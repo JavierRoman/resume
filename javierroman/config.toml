@@ -144,24 +144,19 @@ url = "#about"
 weight = 2
 
 [[languages.es.menu.main]]
-name = "Herramientas"
-url = "#service"
-weight = 3
-
-[[languages.es.menu.main]]
 name = "Fondo académico"
 url = "#background"
-weight = 4
+weight = 3
 
 # [[languages.es.menu.main]]
 # name = "Portfolio"
 # url = "#portfolio"
-# weight = 5
+# weight = 4
 
 # [[languages.es.menu.main]]
 # name = "Testimonial"
 # url = "#testimonial"
-# weight = 6
+# weight = 5
 
 [[languages.es.menu.main]]
 name = "Contacto"
