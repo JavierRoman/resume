@@ -242,18 +242,17 @@
       </div>
       {{ end }}
       {{ end }}
-      {{ if $data.homepage.skill.enable }}
-      {{ with $data.homepage.skill }}
+      {{ if $data.homepage.service.enable }}
+      {{ with $data.homepage.service }}
       <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
         <h3>{{ .title }}</h3>
-        <div class="skill-progress-bar">
-          {{ range .skill_list }}
-          <div class="clearfix">
-            <span class="skillbar-title">{{ .name }}</span>
-            <span class="skill-bar-percent">{{ .parcentage }}</span>
-            <div class="skillbar" data-percent="{{ .parcentage }}">
-              <div class="skillbar-bar"></div>
+        <div class="row">
+          {{ range .service_list }}
+          <div class="col-lg-3 col-sm-3 col-12 services-icon">
+            <div class="service-img">
+              <img class="img-fluid" src="{{ .image | absURL }}" alt="{{ .name | markdownify }}">
             </div>
+            <div class="service-label">{{ .name | markdownify }}</div>
           </div>
           {{ end }}
         </div>
