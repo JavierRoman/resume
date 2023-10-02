@@ -902,7 +902,7 @@ input:checked + label span:last-child {
 }
 
 .about-me-images img {
-  width: 100%;
+  width: 90%;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -916,7 +916,7 @@ input:checked + label span:last-child {
 }
 
 .about-me-images img:hover {
-  width: 100%;
+  width: 90%;
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
