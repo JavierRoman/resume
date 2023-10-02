@@ -180,20 +180,11 @@ service:
     - name : "Python"
       image : "images/icons/python.png"
 
-    - name : "Git"
-      image : "images/icons/git.png"
-
-    - name : "Docker"
-      image : "images/icons/docker.png"
-
     - name : "Google Cloud"
       image : "images/icons/gcp.png"
 
     - name : "BigQuery"
       image : "images/icons/bigquery.png"
-
-    - name : "Apache Airflow"
-      image : "images/icons/airflow.png"
 
     - name : "Cloud Run"
       image : "images/icons/cloudrun.png"
@@ -204,35 +195,50 @@ service:
     - name : "Compute Engine"
       image : "images/icons/gce.png"
 
-    - name : "DBT"
-      image : "images/icons/dbt.png"
-
     - name : "AppEngine"
       image : "images/icons/appengine.png"
 
     - name : "GKE"
       image : "images/icons/gke.png"
 
-    - name : "Virtual Private Cloud"
-      image : "images/icons/vpc.png"
+    - name : "Pub/Sub"
+      image : "images/icons/pubsub.png"
 
-    - name : "GNU/Linux"
-      image : "images/icons/bash.png"
+    - name : "Apache Airflow"
+      image : "images/icons/airflow.png"
+
+    - name : "Airbyte"
+      image : "images/icons/airbyte.png"
 
     - name : "SQL"
       image : "images/icons/SQL.png"
 
-    - name : "Pandas"
-      image : "images/icons/pandas.png"
+    - name : "Git"
+      image : "images/icons/git.png"
 
-    - name : "Numpy"
-      image : "images/icons/numpy.png"
+    - name : "Docker"
+      image : "images/icons/docker.png"
+
+    - name : "DBT"
+      image : "images/icons/dbt.png"
+
+    - name : "VPC"
+      image : "images/icons/vpc.png"
 
     - name : "Java"
       image : "images/icons/java.png"
       
     - name : "C"
       image : "images/icons/c.png"
+
+    - name : "GNU/Linux"
+      image : "images/icons/bash.png"
+
+    - name : "Pandas"
+      image : "images/icons/pandas.png"
+
+    - name : "Numpy"
+      image : "images/icons/numpy.png"
 
 ############################## call to action #########################
 call_to_action:
