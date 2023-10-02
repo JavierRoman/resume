@@ -201,8 +201,8 @@ service:
     - name : "Compute Engine"
       image : "images/icons/gce.png"
 
-    - name : "GKE"
-      image : "images/icons/gke.png"
+    - name : "Storage"
+      image : "images/icons/storage.png"
 
     - name : "Cloud Build"
       image : "images/icons/cloud-build.png"
