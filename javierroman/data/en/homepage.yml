@@ -322,7 +322,7 @@ funfacts:
     # funfacts item loop
     - name : "COWORKERS"
       image : "images/icons/works.png"
-      count : "33"
+      count : "49"
       
     # funfacts item loop
     - name : "HAPPY BOSSES"
@@ -337,7 +337,7 @@ funfacts:
     # funfacts item loop
     - name : "CUPS OF COFFEE"
       image : "images/icons/coffee.png"
-      count : "358"
+      count : "1052"
 
 
 ############################## contact ###########################
