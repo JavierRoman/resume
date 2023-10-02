@@ -231,9 +231,6 @@ service:
     - name : "DBT"
       image : "images/icons/dbt.png"
 
-    - name : "VPC"
-      image : "images/icons/vpc.png"
-
     - name : "Java"
       image : "images/icons/java.png"
       
