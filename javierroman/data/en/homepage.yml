@@ -195,11 +195,11 @@ service:
     - name : "Cloud Functions"
       image : "images/icons/cloudfunction.png"
 
-    - name : "Compute Engine"
-      image : "images/icons/gce.png"
-
     - name : "AppEngine"
       image : "images/icons/appengine.png"
+
+    - name : "Compute Engine"
+      image : "images/icons/gce.png"
 
     - name : "GKE"
       image : "images/icons/gke.png"
