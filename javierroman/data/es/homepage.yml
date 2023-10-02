@@ -204,6 +204,9 @@ service:
     - name : "Pub/Sub"
       image : "images/icons/pubsub.png"
 
+    - name : "VPC"
+      image : "images/icons/vpc.png"
+
     - name : "Apache Airflow"
       image : "images/icons/airflow.png"
 
